@@ -1,0 +1,16 @@
+PODS:
+  - LLSMSCodeViewController (0.1.0)
+
+DEPENDENCIES:
+  - LLSMSCodeViewController (from `../`)
+
+EXTERNAL SOURCES:
+  LLSMSCodeViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LLSMSCodeViewController: 9ace662ad3b71e2e212db2282b674583a60c413b
+
+PODFILE CHECKSUM: 66b039dc4a300af6edd38088bff1d1e892627439
+
+COCOAPODS: 1.10.0

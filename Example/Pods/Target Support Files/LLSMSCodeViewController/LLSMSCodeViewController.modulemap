@@ -1,0 +1,6 @@
+framework module LLSMSCodeViewController {
+  umbrella header "LLSMSCodeViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

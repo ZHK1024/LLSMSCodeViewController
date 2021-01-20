@@ -1,0 +1,6 @@
+framework module Pods_LLSMSCodeViewController_Example {
+  umbrella header "Pods-LLSMSCodeViewController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
