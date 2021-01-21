@@ -1,16 +1,23 @@
 PODS:
-  - LLSMSCodeViewController (0.1.0)
+  - LLSMSCodeViewController (0.1.0):
+    - SnapKit
+  - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - LLSMSCodeViewController (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   LLSMSCodeViewController:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LLSMSCodeViewController: 9ace662ad3b71e2e212db2282b674583a60c413b
+  LLSMSCodeViewController: 0e1a68dbfa228b7dedf7a28425c1a4176d194e26
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 66b039dc4a300af6edd38088bff1d1e892627439
+PODFILE CHECKSUM: 7f44a9947ffbf225ee002c8e93c58498df844006
 
 COCOAPODS: 1.10.0

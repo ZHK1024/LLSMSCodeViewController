@@ -7,18 +7,29 @@
 //
 
 import UIKit
+import LLSMSCodeViewController
 
-class ViewController: UIViewController {
-
+class ViewController: LLSMSCodeViewController {
+    
+    override var smsCodeLenght: Int { 6 }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        navigationController?.navigationBar.isTranslucent = false
+        navigationController?.navigationBar.shadowImage = UIImage()
+        
+        mobile = "15237996899"
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    override func didSMSCodeChanged(code: String) {
+        print(#function, code)
+    }
 }
 
