@@ -13,10 +13,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-LLSMSCodeViewController is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+ To install it, simply add the following line to your Podfile:
 
 ```ruby
+pod 'LLSMSCodeViewController', :git => 'https://github.com/ZHK1024/LLSMSCodeViewController.git'
+
 pod 'LLSMSCodeViewController', :git => 'https://github.com/ZHK1024/LLSMSCodeViewController.git', :tag => s.version.to_s
 ```
 
