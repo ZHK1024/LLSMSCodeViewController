@@ -21,6 +21,10 @@ pod 'LLSMSCodeViewController', :git => 'https://github.com/ZHK1024/LLSMSCodeView
 pod 'LLSMSCodeViewController', :git => 'https://github.com/ZHK1024/LLSMSCodeViewController.git', :tag => s.version.to_s
 ```
 
+## Screen Shot
+
+![](https://github.com/ZHK1024/LLSMSCodeViewController/blob/main/ScreenShot/Screen_Shot_00.png)
+
 ## Author
 
 ZHK1024, ZHK1024@qq.com
