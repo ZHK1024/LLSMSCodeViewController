@@ -22,6 +22,11 @@ class ViewController: LLSMSCodeViewController {
         
         mobile = "15237996899"
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        fire()
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
