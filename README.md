@@ -25,6 +25,8 @@ pod 'LLSMSCodeViewController', :git => 'https://github.com/ZHK1024/LLSMSCodeView
 
 ![](https://github.com/ZHK1024/LLSMSCodeViewController/blob/main/ScreenShot/Screen_Shot_00.png)
 
+<img src="https://github.com/ZHK1024/LLSMSCodeViewController/blob/main/ScreenShot/Screen_Shot_00.png" width = "400" alt="" align=center />
+
 ## Author
 
 ZHK1024, ZHK1024@qq.com
