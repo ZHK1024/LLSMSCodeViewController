@@ -158,7 +158,7 @@ extension LLSMSCodeInputView: UITextFieldDelegate {
             return string.count > length
         }
         let resultText = (text as NSString).replacingCharacters(in: range, with: string)
-        /// 只能输入数字, 切长度在限定长度以内
+        /// 只能输入数字, 且长度在限定长度以内
         return numeralPredicate.evaluate(with: resultText) && resultText.count <= length
     }
 }
