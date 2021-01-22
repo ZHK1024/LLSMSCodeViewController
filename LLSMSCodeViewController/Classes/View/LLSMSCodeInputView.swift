@@ -75,6 +75,9 @@ class LLSMSCodeInputView: UIView {
         }
     }
     
+    ///  谓词, 用于匹配输入结果是否是纯数字
+    private let numeralPredicate = NSPredicate(format: "SELF MATCHES %@", "^\\d*$")
+    
     // MARK: Init & Deinit
     
     init(length: Int) {
@@ -154,7 +157,9 @@ extension LLSMSCodeInputView: UITextFieldDelegate {
         guard let text = textField.text else {
             return string.count > length
         }
-        return (text as NSString).replacingCharacters(in: range, with: string).count <= length
+        let resultText = (text as NSString).replacingCharacters(in: range, with: string)
+        /// 只能输入数字, 切长度在限定长度以内
+        return numeralPredicate.evaluate(with: resultText) && resultText.count <= length
     }
 }
 
