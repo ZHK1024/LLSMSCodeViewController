@@ -144,7 +144,7 @@ open class LLSMSCodeViewController: UIViewController, LLSMSCodeInputViewDelegate
         } else {
             pause()
             timeLeft = deadline
-            sendButton.setTitle("重新获取证码", for: .normal)
+            sendButton.setTitle("重新获取验证码", for: .normal)
             sendButton.isEnabled = true
         }
     }
