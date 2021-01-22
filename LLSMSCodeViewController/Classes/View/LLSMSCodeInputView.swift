@@ -62,7 +62,7 @@ class LLSMSCodeInputView: UIView {
         let timer = Timer(timeInterval: 0.5, repeats: true) { [weak self] (_) in
             self?.cursorLayer.isHidden.toggle()
         }
-        RunLoop.current.add(timer, forMode: .commonModes)
+        RunLoop.current.add(timer, forMode: .common)
         return timer
     }()
     

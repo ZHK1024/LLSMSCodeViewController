@@ -44,7 +44,7 @@ open class LLSMSCodeViewController: UIViewController, LLSMSCodeInputViewDelegate
         let timer = Timer(timeInterval: 1.0, repeats: true) { [weak self] (timer) in
             self?.countDown(timer: timer)
         }
-        RunLoop.current.add(timer, forMode: .commonModes)
+        RunLoop.current.add(timer, forMode: .common)
         return timer
     }()
     
